@@ -38,7 +38,7 @@ const Navbar = () => {
             <div className='relative flex items-center gap-2'>
                 <img className='relative w-10' src={circle} alt="Circle" />
                 <img className='absolute w-10 top-0 left-0' src={logo} alt="Logo" />
-                <h1 className='text-lg head uppercase font-extrabold md:text-xl'>ABODE</h1>
+                <h1 className='text-lg head uppercase font-extrabold md:text-xl'>ABITA</h1>
             </div>
             </Link>
             <ul className='md:flex gap-6 hidden relative lg:-left-12 xl:-left-16'>
