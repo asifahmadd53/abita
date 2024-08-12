@@ -32,12 +32,12 @@ const Hero = () => {
   const handleImageClick = () => {
     setCurrentIndex((currentIndex + 1) % images.length);
   };
-  const memoizedImg = useMemo(()=> bg, [bg])
+  
   return (
     <>
     <div className='relative h-[130vh]  md:h-auto w-full max-w-full min-w-full overflow-hidden'>
       
-      <img className='h-full w-full object-cover' src={memoizedImg} alt="Background" />
+      <img className='h-full w-full object-cover' src={bg} alt="Background" />
 
       <div className='flex flex-col md:flex-row   absolute inset-0 pt-20 md:pt-52  md:justify-around px-5 md:px-10 w-full'>
         <div className='left text-white  pt-10  ss:pl-16 sm:pl-32 md:pl-12 logo  w-full'>
